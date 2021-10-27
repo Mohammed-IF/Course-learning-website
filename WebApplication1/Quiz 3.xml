@@ -1,0 +1,66 @@
+﻿<?xml version = "1.0"?>
+
+<!-- Fig. 14.2: article.xml -->
+<!-- Article structured with XML -->
+<Questions>
+  <question>
+    <questionText>Transport layer provide logical communication between processes running on different hosts.</questionText>
+    <firstAnswer>true</firstAnswer>
+    <secondAnswer>false</secondAnswer>
+    <correctAnswer>true</correctAnswer>
+  </question>
+  <question>
+    <questionText>The packets formed in the transport layer are called datagrams.</questionText>
+    <firstAnswer>true</firstAnswer>
+    <secondAnswer>false</secondAnswer>
+    <correctAnswer>false</correctAnswer>
+  </question>
+  <question>
+    <questionText>Transport layers protocols run within network core.</questionText>
+    <firstAnswer>true</firstAnswer>
+    <secondAnswer>false</secondAnswer>
+    <correctAnswer>false</correctAnswer>
+  </question>
+  <question>
+    <questionText>TCP transfers messages from transport layer to network layer and vise versa.</questionText>
+    <firstAnswer>true</firstAnswer>
+    <secondAnswer>false</secondAnswer>
+    <correctAnswer>true</correctAnswer>
+  </question>
+  <question>
+    <questionText>UDP provides congestion control service.</questionText>
+    <firstAnswer>true</firstAnswer>
+    <secondAnswer>false</secondAnswer>
+    <correctAnswer>false</correctAnswer>
+  </question>
+  <question>
+    <questionText>TCP provides delay guarantees.</questionText>
+    <firstAnswer>true</firstAnswer>
+    <secondAnswer>false</secondAnswer>
+    <correctAnswer>false</correctAnswer>
+  </question>
+  <question>
+    <questionText>UDP is a best effort protocol.</questionText>
+    <firstAnswer>true</firstAnswer>
+    <secondAnswer>false</secondAnswer>
+    <correctAnswer>true</correctAnswer>
+  </question>
+  <question>
+    <questionText>TCP segment has 8-byte header.</questionText>
+    <firstAnswer>true</firstAnswer>
+    <secondAnswer>false</secondAnswer>
+    <correctAnswer>false</correctAnswer>
+  </question>
+  <question>
+    <questionText>ACKs are used to detect bit errors in reliable data transfer.</questionText>
+    <firstAnswer>true</firstAnswer>
+    <secondAnswer>false</secondAnswer>
+    <correctAnswer>false</correctAnswer>
+  </question>
+  <question>
+    <questionText>Sequence number is used to handle duplication in data transmission.</questionText>
+    <firstAnswer>true</firstAnswer>
+    <secondAnswer>false</secondAnswer>
+    <correctAnswer>true</correctAnswer>
+  </question>
+</Questions>

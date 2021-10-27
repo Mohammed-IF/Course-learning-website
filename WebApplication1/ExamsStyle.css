@@ -1,0 +1,101 @@
+﻿body {
+    background-color: gainsboro;
+}
+
+div.menu {
+    font-weight: bold;
+    font-size: 25px;
+    overflow: auto;
+    white-space: nowrap;
+    display: inline-block;
+    color: white;
+    border: 2px solid #808080;
+    text-align: center;
+    width: 5cm;
+    background-color: #0094ff;
+    margin-top: 5px;
+    position: absolute;
+    left: 1ex;
+    top: 5ex;
+}
+
+    div.menu:hover a {
+        display: block
+    }
+
+    div.menu a {
+        display: none;
+        border-top: 2px #ff0000;
+        background-color: white;
+        width: 5cm;
+        text-decoration: none;
+        color: black;
+    }
+
+        div.menu a:hover {
+            background-color: #808080
+        }
+
+
+table {
+    position: relative;
+    left: 30%;
+    font-size: 35pt;
+    text-align: center;
+    margin-bottom: 5ex;
+    top: 3ex;
+}
+
+img {
+    position: relative;
+    left: 70%;
+}
+
+div {
+    position: relative;
+    left: 45%
+}
+
+.a {
+    position: relative;
+    left: 30%;
+    font-size: 15pt;
+    text-align: center;
+    left: 19ex;
+    top: -9ex;
+}
+
+
+.b {
+    position: absolute;
+    left: 46%
+}
+
+.c {
+    position: absolute;
+    left: 75%
+}
+
+a.d {
+    top: -5ex;
+}
+
+.d {
+    position: relative;
+    right: -75ex;
+    font-size: 20pt;
+}
+
+.e {
+    position: relative;
+    right: -40ex;
+    font-size: 20pt;
+}
+.f {
+
+    font-size: 15pt;
+    position: relative;
+    right: 5ex;
+    top: -12ex;
+    text-align: center;
+}

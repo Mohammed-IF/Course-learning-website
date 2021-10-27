@@ -1,0 +1,66 @@
+﻿<?xml version = "1.0"?>
+
+<!-- Fig. 14.2: article.xml -->
+<!-- Article structured with XML -->
+<Questions>
+  <question>
+    <questionText>Two Key Network-Layer Functions are forwarding and routing.</questionText>
+    <firstAnswer>true</firstAnswer>
+    <secondAnswer>false</secondAnswer>
+    <correctAnswer>true</correctAnswer>
+  </question>
+  <question>
+    <questionText>IP is a best effort protocol.</questionText>
+    <firstAnswer>true</firstAnswer>
+    <secondAnswer>false</secondAnswer>
+    <correctAnswer>true</correctAnswer>
+  </question>
+  <question>
+    <questionText>Datagram network provides network-layer connection service.</questionText>
+    <firstAnswer>true</firstAnswer>
+    <secondAnswer>false</secondAnswer>
+    <correctAnswer>false</correctAnswer>
+  </question>
+  <question>
+    <questionText>In IPv6 datagram, the IP address field is 32-bit long.</questionText>
+    <firstAnswer>true</firstAnswer>
+    <secondAnswer>false</secondAnswer>
+    <correctAnswer>false</correctAnswer>
+  </question>
+  <question>
+    <questionText>IPv6 uses fragmentation when the datagram size exceeds MTU.</questionText>
+    <firstAnswer>true</firstAnswer>
+    <secondAnswer>false</secondAnswer>
+    <correctAnswer>false</correctAnswer>
+  </question>
+  <question>
+    <questionText>IP datagram has a header of 20-bit long.</questionText>
+    <firstAnswer>true</firstAnswer>
+    <secondAnswer>false</secondAnswer>
+    <correctAnswer>false</correctAnswer>
+  </question>
+  <question>
+    <questionText>Tunneling is used to achieve IPv4/IPv6 compatibility.</questionText>
+    <firstAnswer>true</firstAnswer>
+    <secondAnswer>false</secondAnswer>
+    <correctAnswer>true</correctAnswer>
+  </question>
+  <question>
+    <questionText>IPv6 datagram has 132-bit IP address</questionText>
+    <firstAnswer>true</firstAnswer>
+    <secondAnswer>false</secondAnswer>
+    <correctAnswer>false</correctAnswer>
+  </question>
+  <question>
+    <questionText>DHCP can provide host with an IP address</questionText>
+    <firstAnswer>true</firstAnswer>
+    <secondAnswer>false</secondAnswer>
+    <correctAnswer>true</correctAnswer>
+  </question>
+  <question>
+    <questionText>Forwarding and routing are essential the same</questionText>
+    <firstAnswer>true</firstAnswer>
+    <secondAnswer>false</secondAnswer>
+    <correctAnswer>false</correctAnswer>
+  </question>
+</Questions>

@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Online Quiz</title>
+
+    <script type="text/javascript">
+
+      var requestxml;
+      function requestXmlFile() {
+      var R = document.getElementById("xmlfile").value;
+      try {
+      requestxml = new XMLHttpRequest();
+      requestxml.onreadystatechange = checkxml;
+      requestxml.open("Get", R, true);
+      requestxml.send(null);
+      }
+      catch (Exception) {
+      alert("Sorry, the file is not correct");
+      }
+      }
+
+      function checkxml() {
+      if (requestxml.readyState == 4 && requestxml.status == 200 && requestxml.responseXML) {
+      var q, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10;
+      q = requestxml.responseXML.getElementsByTagName("questionText");
+      q1 = q.item(0).firstChild.nodeValue;
+      q2 = q.item(1).firstChild.nodeValue;
+      q3 = q.item(2).firstChild.nodeValue;
+      q4 = q.item(3).firstChild.nodeValue;
+      q5 = q.item(4).firstChild.nodeValue;
+      q6 = q.item(5).firstChild.nodeValue;
+      q7 = q.item(6).firstChild.nodeValue;
+      q8 = q.item(7).firstChild.nodeValue;
+      q9 = q.item(8).firstChild.nodeValue;
+      q10 = q.item(9).firstChild.nodeValue;
+      document.getElementById("para").value = q1 + "\n" + q2 + "\n" + q3 + "\n" + q4 + "\n" + q5 + "\n" + q6 + "\n" + q7 + "\n" + q8 + "\n" + q9 + "\n" + q10;
+      }
+      }
+    </script>
+  </head>
+  <body>
+    <form action=" ">
+      <p>
+        Enter URL of the XML file to show the Quiz:
+        <input id="xmlfile" type="text" />
+        <input type="button" onclick="requestXmlFile()" value="Get xml file"/>
+      </p>
+
+      <textarea id="para" rows=" 30" cols="30"></textarea>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

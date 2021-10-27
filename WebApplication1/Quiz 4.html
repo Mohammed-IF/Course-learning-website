@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Quiz 4</title>
+
+    <script type="text/javascript">
+
+        function checkAns() {
+            var result = 0;
+            var q1, q2, q3, q4, q5, q6, q7, q8, q9, q10;
+            q1 = document.getElementById("q1").value;
+            q2 = document.getElementById("q2").value;
+            q3 = document.getElementById("q3").value;
+            q4 = document.getElementById("q4").value;
+            q5 = document.getElementById("q5").value;
+            q6 = document.getElementById("q6").value;
+            q7 = document.getElementById("q7").value;
+            q8 = document.getElementById("q8").value;
+            q9 = document.getElementById("q9").value;
+            q10 = document.getElementById("q10").value;
+            if (q1 == "true")
+                result= result + 1;
+            if (q2 == "true")
+                result = result + 1;
+            if (q3 == "false")
+                result = result + 1;
+            if (q4 == "false")
+                result = result + 1;
+            if (q5 == "false")
+                result = result + 1;
+            if (q6 == "false")
+                result = result + 1;
+            if (q7 == "true")
+                result = result + 1;
+            if (q8 == "false")
+                result = result + 1;
+            if (q9 == "true")
+                result = result + 1;
+            if (q10 == "false")
+                result = result + 1;
+            alert("Your result in the Quiz is " + result);
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <h4>Answer the following questions (one point for each one):</h4>
+        <h5>Q1:true or false</h5>
+        <input id="q1" type="text" />
+        <h5>Q2:true or false</h5>
+        <input id="q2" type="text" />
+        <h5>Q3:true or false</h5>
+        <input id="q3" type="text" />
+        <h5>Q4:true or false</h5>
+        <input id="q4" type="text" />
+        <h5>Q5:true or false</h5>
+        <input id="q5" type="text" />
+        <h5>Q6:true or false</h5>
+        <input id="q6" type="text" />
+        <h5>Q7:true or false</h5>
+        <input id="q7" type="text" />
+        <h5>Q8:true or false</h5>
+        <input id="q8" type="text" />
+        <h5>Q9:true or false</h5>
+        <input id="q9" type="text" />
+        <h5>Q10:true or false</h5>
+        <input id="q10" type="text" />
+        </br>
+        </br>
+        <input type="button" onclick="checkAns()" value="save and submet">
+    </form>
+</body>
+</html>

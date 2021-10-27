@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Fig. 10.14: quiz.html -->
+<!-- Online quiz graded with JavaScript. -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Html Quiz</title>
+    <script type="text/JavaScript">
+
+         function checkAnswers()
+         {
+             var score = 0
+             var total = 5
+             var myQuiz = document.getElementById( "myQuiz" );
+
+            // determine whether the answer is correct
+            if ( myQuiz.elements[ 2 ].checked )
+                 score++
+             if (myQuiz.elements[ 3 ].checked)
+                 score++
+             if (myQuiz.elements[ 6 ].checked)
+                 score++
+             if (myQuiz.elements[ 8 ].checked)
+                 score++
+             if (myQuiz.elements[ 10 ].checked)
+                 score++
+
+             window.alert("Your Total score in this quiz is " + score + " of " + total);
+
+
+         } // end function checkAnswers
+
+    </script>
+</head>
+<body>
+    <form id="myQuiz" onsubmit="checkAnswers()" action="">
+        <p>
+            File transfer uses peer-to-peer model.<br />
+
+            <input type="radio" name="radiobutton" value="CPE" />
+            <label>True</label><br />
+
+            <input type="radio" name="radiobutton" value="EPT" />
+            <label>False</label><br /><!-- -->
+            In packet switchin, network resources are reserved for each user.<br />
+
+            <input type="radio" name="radiobutton1" value="CPE" />
+            <label>False</label><br /><!-- -->
+
+            <input type="radio" name="radiobutton1" value="EPT" />
+            <label>True</label><br />
+
+
+            P2P atchitecture has always on servers. <br />
+
+            <input type="radio" name="radiobutton2" value="CPE" />
+            <label>True</label><br />
+
+            <input type="radio" name="radiobutton2" value="PORT" />
+            <label>False</label><br /> <br /><!-- -->
+            Throughput cannot exceed network bandwidth. <br />
+
+            <input type="radio" name="radiobutton3" value="CPE" />
+            <label>False</label><br />
+
+            <input type="radio" name="radiobutton3" value="EPT" />
+            <label>True</label><br /><!-- -->
+            Hosts form the core part of the internet. <br />
+
+            <input type="radio" name="radiobutton4" value="PERF" />
+            <label>True</label><br />
+
+            <input type="radio" name="radiobutton4" value="PORT" />
+            <label>False</label><br /><br /><!-- -->
+
+            <input type="submit" name="submit" value="Submit" />
+            <input type="reset" name="reset" value="Reset" />
+        </p>
+    </form>
+    <a href="Evalution Page.aspx"> go back to the evaluation page </a>
+</body>
+</html>
+
+<!--
